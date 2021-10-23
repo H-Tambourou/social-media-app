@@ -1,0 +1,101 @@
+.rightBar{
+    flex:3.5;
+}
+.rightBarWrapper{
+    padding: 10px;
+}
+.rightBarTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+}
+
+.roverPhotos{
+    list-style: none;
+    padding: 0;
+}
+.roverPhoto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+}
+.roverImg{
+    width: 100%;
+    object-fit: contain;
+    max-height: 500px;
+}
+.rightbarFriendList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .rightbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .rightbarInfo{
+    margin-bottom: 30px;
+  }
+  
+  .rightbarInfoItem{
+    margin-bottom: 10px;
+  }
+  
+  .rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+  }
+  
+  .rightbarInfoValue{
+    font-weight: 300;
+  }
+  
+  .rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .rightbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 5px;
+  }
+  
+  .rightbarFollowButton{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: #1872f2;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .rightbarFollowingName{
+    display: flex;
+    align-self: center;
+  }
+  .rightbarFollowButton:focus{
+    outline: none;
+  }
